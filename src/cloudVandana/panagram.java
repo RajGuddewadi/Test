@@ -11,7 +11,7 @@ class panagram
     String s = scan.nextLine();
 
     int[]check = new int[26];
-    String str = s.toLowerCase(); //to convert the entire string to lowercase
+    String str = s.toLowerCase(); 
 
     for(int i = 0; i < str.length(); i++)
     {
